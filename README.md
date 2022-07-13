@@ -1,4 +1,4 @@
-# Minamilist TODO List Clone
+### TODO List Peer CR
 
 > This is a clone of minimalist TODO list app. For now it duplicates the features of the app. Upgrades will be made in the future...
 
@@ -17,9 +17,10 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 
 [Download the ZIP from this location](https://github.com/sireclifford/todo-list/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-
 bash
-git clone https://github.com/sireclifford/todo-list.git
+```
+git clone https://github.com/sireclifford/todo-list-peer-review.git
+```
 
 - Once the files are on your machine, open the _todo-list_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
@@ -54,7 +55,7 @@ git clone https://github.com/sireclifford/todo-list.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sireclifford/todo-list/issues).
+Feel free to check the [issues page](https://github.com/sireclifford/todo-list-peer-review/issues).
 
 ## Show your support
 
