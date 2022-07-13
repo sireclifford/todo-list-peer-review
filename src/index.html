@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List</title>
+  </head>
+  <body>
+    <section class="wrap">
+      <header>
+        <h1>TODO List</h1>
+      </header>
+    </section>
+    <section class="wrap content">
+      <div class="list">
+        <div class="list-header">
+          <p class="name">Demo</p>
+          <img
+            class="refresh-list"
+            src="assets/images/refresh.png"
+            alt="refresh"
+          />
+        </div>
+        <div class="list-body">
+          <form class="add-new">
+            <input
+              type="text"
+              id="new-item"
+              placeholder="Add to your list by clicking button to add to list..."
+            />
+            <img
+              class="submit-new-item"
+              alt="submit"
+              src="assets/images/return.png"
+            />
+          </form>
+
+          <ul class="items">
+            <!-- <li>
+              <div class="task-view">
+                <input type="checkbox" id="scales" name="scales" checked />
+                <label for="scales">Scales</label>
+              </div>
+              <div class="input-div">
+                <input class="input-name" value="Scales" type="text" />
+              </div>
+            </li> -->
+          </ul>
+          <div class="clear">
+            <p class="clear-completed">Clear Selected</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="main.bundle.js"></script>
+  </body>
+</html>
